@@ -6,22 +6,22 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/assets/bg-mobile.png);
+  --bg-url: url(./assets/assets/pm-mobile-light-v2.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.02);
-  --switch-bg-url: url(./assets/assets/moon-stars.svg);
+  --switch-bg-url: url(./assets/assets/chevron-forward-outline.svg);
 }
 
 .light {
-  --text-color: black;
-  --bg-url: url(./assets/assets/bg-mobile-light.png);
+  /* --text-color: black; */
+  --bg-url: url(./assets/assets/be-mobile-v2.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.01);
-  --switch-bg-url: url(./assets/assets/sun.svg);
+  --switch-bg-url: url(./assets/assets/chevron-back-outline.svg);
 }
 
 body {
@@ -44,7 +44,7 @@ body * {
 
 #profile {
   text-align: center;
-  padding: 24px;
+  padding: 12px;
 }
 
 #profile img {
@@ -146,7 +146,7 @@ ul li a:hover {
   display: flex;
   justify-content: center;
 
-  padding: 24px 0;
+  padding: 12px 0;
 
   font-size: 24px;
 }
@@ -155,7 +155,7 @@ ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  padding: 8px;
 
   transition: background 0.2s;
   border-radius: 50%;
@@ -174,11 +174,11 @@ footer {
 /* media queries */
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/assets/bg-desktop.png);
+    --bg-url: url(./assets/assets/pm-desktop-light-v2.jpg);
   }
 
   .light {
-    --bg-url: url(./assets/assets/bg-desktop-light.png);
+    --bg-url: url(./assets/assets/be-desktop-v2.jpg);
   }
 }
 

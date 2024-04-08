@@ -17,9 +17,9 @@ function toggleMode() {
   // substituir o alt
   if (hmtl.classList.contains("light")) {
     // se tiver light mode, adicionar alt light
-    img.setAttribute("alt", "Levi Ackerman - LightMode")
+    img.setAttribute("alt", "Exército Brasileiro")
   } else {
     // se tiver sem light mode, manter alt normal
-    img.setAttribute("alt", "Levi Ackerman - DarkMode")
+    img.setAttribute("alt", "Polícia Militar do Estado de São Paulo")
   }
 }
